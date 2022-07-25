@@ -25,7 +25,7 @@ git add .
 git commit -m "Start new project from lewagon/react-boilerplate"
 
 # Create a GitHub repo, and push!
-hub create
+gh repo create --public source=.
 git push origin master
 
 # Time to open Sublime Text and code.
