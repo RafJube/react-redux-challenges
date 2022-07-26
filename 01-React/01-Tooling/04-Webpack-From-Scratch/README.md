@@ -125,7 +125,7 @@ See what we have here? A linter warning. By default, ESLint [recommends not to u
 Webpack will help us bundle every javascript file together to produce a neat bundled file. This is something Rails also does thanks to the [Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html).
 
 ```bash
-yarn add webpack webpack-cli@3.3.12 webpack-dev-server --dev
+yarn add webpack webpack-cli webpack-dev-server --dev
 ```
 
 Let's have a look at the `.bin` folder of our project:
