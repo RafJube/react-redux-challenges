@@ -19,8 +19,8 @@ Then you can generate a new rails app with the [Le Wagon Devise template](https:
 ```bash
 cd ~/code/<github_nickname>
 rails new \
-  --database postgresql \
-  --webpack=react \
+  -d postgresql \
+  -j webpack \
   -m https://raw.githubusercontent.com/lewagon/rails-templates/master/devise.rb \
   chat-rails-redux
 cd chat-rails-redux
